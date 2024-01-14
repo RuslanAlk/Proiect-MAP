@@ -49,10 +49,10 @@ Q . . . . . . .
 ### Construirea și rularea într-un container Docker
 - Construim imaginea docker:
 ```docker -build -t ruslanal/regine .```
-- Autentificarea in docker hub:
-```docker login```
 - Rularea in container Docker:
 ```docker run -it --rm ruslanal/regine```
+- Autentificarea in docker hub:
+```docker login```
 
 #### Conținutul Dockerfile
 ```plaintext
